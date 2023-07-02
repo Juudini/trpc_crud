@@ -10,16 +10,7 @@ This web application is built using TypeScript and utilizes a stack comprising T
 
 ## Technologies Used
 
-- [![MongoDB](https://img.shields.io/badge/MongoDB-green?logo=mongodb&logoColor=white&style=flat)](https://www.mongodb.com/)
-- [![Express](https://img.shields.io/badge/Express-blue?logo=express&logoColor=white&style=flat)](https://expressjs.com/)
-- [![React](https://img.shields.io/badge/React-blue?logo=react&logoColor=white&style=flat)](https://reactjs.org/)
-- [![Node.js](https://img.shields.io/badge/Node.js-green?logo=node.js&logoColor=white&style=flat)](https://nodejs.org/)
-- [![tRPC](https://img.shields.io/badge/tRPC-lightgrey?logoColor=white&style=flat)](https://trpc.io/)
-- [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-blue?logo=tailwind-css&logoColor=white&style=flat)](https://tailwindcss.com/)
-- [![Vite](https://img.shields.io/badge/Vite-darkgreen?logo=vite&logoColor=white&style=flat)](https://vitejs.dev/)
-- [![Railway](https://img.shields.io/badge/Railway-lightgrey?logo=railway&logoColor=white&style=flat)](https://mern-trpc-typescript-production.up.railway.app/)
-
-
+[![MongoDB](https://img.shields.io/badge/MongoDB-green?logo=mongodb&logoColor=white&style=flat)](https://www.mongodb.com/) [![Express](https://img.shields.io/badge/Express-blue?logo=express&logoColor=white&style=flat)](https://expressjs.com/) [![React](https://img.shields.io/badge/React-blue?logo=react&logoColor=white&style=flat)](https://reactjs.org/) [![Node.js](https://img.shields.io/badge/Node.js-green?logo=node.js&logoColor=white&style=flat)](https://nodejs.org/) [![tRPC](https://img.shields.io/badge/tRPC-lightgrey?logoColor=white&style=flat)](https://trpc.io/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-blue?logo=tailwind-css&logoColor=white&style=flat)](https://tailwindcss.com/) [![Vite](https://img.shields.io/badge/Vite-darkgreen?logo=vite&logoColor=white&style=flat)](https://vitejs.dev/) [![Railway](https://img.shields.io/badge/Railway-lightgrey?logo=railway&logoColor=white&style=flat)](https://mern-trpc-typescript-production.up.railway.app/)
 
 ## Getting Started
 
@@ -27,13 +18,14 @@ To get started with the web application, follow these steps:
 
 1. Clone the repository:
 
-   ```
-   git clone https://github.com/Juudini/TRPC_CRUD.git
-   ```
+    ```
+    git clone https://github.com/Juudini/TRPC_CRUD.git
+    ```
 
 2. Install dependencies:
 
-``` 
+```
+cd TRPC_CRUD
 npm install
 npm run build
 npm start
@@ -45,10 +37,19 @@ Open your web browser and visit `http://localhost:3000` to access the running we
 
 For more information on the tools and technologies used in this web application, refer to the following resources:
 
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [tRPC Documentation](https://trpc.io/docs/)
-- [npm Documentation](https://docs.npmjs.com/)
-- [React Query Documentation](https://react-query.tanstack.com/)
+-   [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+-   [Node.js Documentation](https://nodejs.org/en/docs/)
+-   [tRPC Documentation](https://trpc.io/docs/)
+-   [npm Documentation](https://docs.npmjs.com/)
+-   [React Query Documentation](https://react-query.tanstack.com/)
 
 Feel free to explore and modify the application code as per your requirements.
+
+## 🔗 Links
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://juandebandi.netlify.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juandebandi/)
+</a>
+<a href="mailto:juudinidev@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
