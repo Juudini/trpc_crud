@@ -13,7 +13,6 @@ function NoteForm() {
 
     const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        console.log(note);
         addNote.mutate(note, {
             onSuccess() {
                 console.log("Note added successfully");
