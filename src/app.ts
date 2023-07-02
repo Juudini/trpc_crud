@@ -1,10 +1,10 @@
 import Express from "express";
 import morgan from "morgan";
-import * as trpc from "@trpc/server";
 import * as trpcExpress from "@trpc/server/adapters/express";
 import { router, createContext } from "./trpc";
 import { notesRouter } from "./routes/notes";
 import cors from "cors";
+import path from "path";
 
 const app = Express();
 
@@ -22,6 +22,8 @@ app.use(
         createContext,
     })
 );
+
+app.use(Express.static(path.join(__dirname, "../client/dist")));
 
 export type AppRouter = typeof appRouter;
 

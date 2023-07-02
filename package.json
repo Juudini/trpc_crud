@@ -4,7 +4,11 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+        "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+        "build:front-end": "npm run build --prefix client",
+        "build:back-end": "tsc",
+        "start": "node dist/index.js",
+        "build": "npm run build:back-end && npm i --prefix client && npm run build:front-end"
     },
     "keywords": [],
     "author": "",
@@ -23,9 +27,11 @@
         "@trpc/server": "^10.33.0",
         "@typegoose/typegoose": "^11.3.0",
         "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
         "express": "^4.18.2",
         "mongoose": "^7.3.1",
         "morgan": "^1.10.0",
         "zod": "^3.21.4"
     }
 }
+

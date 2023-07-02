@@ -4,7 +4,10 @@ import * as trpcExpress from "@trpc/server/adapters/express";
 export const createContext = ({
     req,
     res,
-}: trpcExpress.CreateExpressContextOptions) => ({});
+}: trpcExpress.CreateExpressContextOptions) => ({
+    req,
+    res,
+});
 
 const t = initTRPC.context().create();
 
