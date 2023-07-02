@@ -3,5 +3,24 @@
 @tailwind utilities;
 
 body {
-    background-color: rgb(24, 28, 32);
+    background-color: #e0f2fe;
+}
+
+::selection {
+    color: white;
+    background-color: #047857;
+}
+
+/* Estilos para el scroll */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #a3c1d4;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #0b435e;
+    border-radius: 4px;
 }
